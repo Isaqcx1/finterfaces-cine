@@ -1,0 +1,60 @@
+.boleta-container {
+    padding: 30px;
+    font-family: 'Arial', sans-serif;
+    background-color: #fdfdfd;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    max-width: 700px;
+    margin: 50px auto;
+    
+}
+
+.boleta-title {
+    text-align: center;
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.boleta-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+.boleta-table th,
+.boleta-table td {
+    border: 1px solid #ccc;
+    padding: 14px 16px;
+    text-align: left;
+    font-size: 16px;
+}
+
+.boleta-table th {
+    background-color: #f5f5f5;
+    color: #444;
+}
+
+.boleta-table td {
+    background-color: #fff;
+}
+
+.boleta-total-row {
+    font-weight: bold;
+    background-color: #f0f0f0;
+    font-size: 17px;
+}
+
+.boleta-thanks {
+    margin-top: 30px;
+    text-align: center;
+    color: #555;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.boleta-table th:nth-child(3),
+.boleta-table td:nth-child(3) {
+    min-width: 100px; 
+    text-align: right; 
+}

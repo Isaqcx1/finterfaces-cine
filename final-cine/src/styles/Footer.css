@@ -1,0 +1,54 @@
+.footer {
+  background-color: #222;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.contact-form {
+  display: flex;
+  gap: 20px;
+}
+
+.contact-left {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-left input,
+.contact-form textarea {
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  padding: 10px;
+  color: #fff;
+}
+
+.contact-form textarea {
+  flex: 1;
+  resize: none;
+  min-height: 150px;
+}
+
+.send-button {
+  margin-top: 10px;
+  text-align: right;
+}
+
+.send-button button {
+  background-color: #d4d300;
+  color: #000;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.85rem;
+}

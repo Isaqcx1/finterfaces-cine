@@ -1,0 +1,12 @@
+.boleta-wrapper {
+  background-color: #2b2b2b; 
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; 
+}
+
+.boleta-container {
+  padding: 30px 40px;
+  border-radius: 8px;
+  width: 600px; 
+}

@@ -1,0 +1,139 @@
+/* Reservaciones.css */
+.reservaciones-container {
+    display: flex;
+    font-family: 'Arial', sans-serif;
+    color: #222;
+    background-color: #fff;
+    padding: 0;
+}
+
+.left-panel {
+    width: 40%;
+    background-color: #333;
+    color: white;
+    padding: 20px 15px 40px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.volver-btn {
+    background: none;
+    border: none;
+    color: hsla(61, 80%, 46%, 1);
+    font-size: 40px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding: 5px 8px;
+    display: inline-block;
+}
+
+.volver-btn:hover {
+    text-decoration: underline;
+}
+
+.poster-reservacion {
+    width: 75%;
+    height: 800px;
+    object-fit: contain;
+    
+    margin-bottom: 10px;
+    padding-right: 30px;
+}
+
+
+.descripcion {
+    margin-top: 10px;
+}
+
+.desc-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px 50px;
+}
+
+.desc-grid .full-row {
+    grid-column: span 2;
+}
+
+.descripcion h3 {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.descripcion p {
+    margin: 14px;
+    font-size: 30px;
+}
+
+.resaltado {
+    color: hsla(61, 80%, 46%, 1);
+}
+
+.right-panel {
+    width: 60%;
+    padding: 100px 40px 40px 150px; 
+}
+
+.right-panel h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.sinopsis-link {
+    color: hsla(61, 80%, 46%, 1);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.sinopsis-text {
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    max-width: 95%;
+}
+
+.cine {
+    margin-top: 30px;
+}
+
+.cine h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.cine p {
+    margin: 0 0 5px 0;
+    color: #555;
+}
+
+.formato {
+    color: hsla(61, 80%, 46%, 1);
+    font-weight: bold;
+}
+
+
+.hora {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 10px 20px;
+    background-color: white;
+    color: #222;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+.hora:hover {
+    color: white;
+    border-color: hsla(61, 80%, 46%, 1);
+    background-color: hsla(61, 80%, 46%, 1);
+}

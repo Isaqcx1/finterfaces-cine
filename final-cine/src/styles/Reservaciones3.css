@@ -1,0 +1,98 @@
+.leyenda {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.leyenda span {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.content {
+  margin-left: 50px; 
+}
+
+
+
+.butacas-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+
+.fila {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+
+.fila-label {
+  font-weight: bold;
+  width: 10px;
+  text-align: right;
+}
+
+
+.asiento {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  user-select: none;
+  color: white;
+}
+
+.asiento:hover {
+  transform: scale(1.05);
+}
+
+.asiento.disponible {
+  background-color: #ccc;
+}
+
+.asiento.comprado {
+  background-color: #cddc39;
+  cursor: not-allowed;
+}
+
+.asiento.seleccionado {
+  background-color: #1e3a8a;
+}
+
+
+.pantalla {
+  background-color: #ccc;
+  text-align: center;
+  padding: 8px;
+  border-radius: 5px;
+  margin-top: 20px;   
+  margin-left: 1px; 
+  font-weight: bold;
+  width: 47%;
+}
+
+
+
+
+.continuar-btn {
+  background-color: #cddc39;
+  border: none;
+  padding: 12px 30px;
+  font-size: 18px;
+  border-radius: 25px;
+  cursor: pointer; 
+}
+
+.continuar-btn:hover {
+  background-color: #b0b835;
+}

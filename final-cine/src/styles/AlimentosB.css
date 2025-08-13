@@ -1,0 +1,84 @@
+.pagos-container {
+  background-color: #2b2b2b;
+  color: white;
+  min-height: 100vh;
+  padding: 30px;
+  font-family: Arial, sans-serif;
+}
+
+.pagos-title {
+  font-size: 1.8em;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+.pagos-tabs {
+  display: flex;
+  align-items: center;
+  font-size: 1.2em;
+  margin-bottom: 1.5em;
+}
+
+.tab {
+  color: #bdbdbd;
+  cursor: pointer;
+}
+
+.tab.active {
+  color: white;
+  font-weight: bold;
+}
+
+.separator {
+  flex: 1;
+  height: 1px;
+  background-color: white;
+  margin: 0 1em;
+}
+
+.pagos-form {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.pagos-row {
+  display: flex;
+  gap: 1em;
+}
+
+.input-pago {
+  flex: 1;
+  padding: 0.8em 1em;
+  border-radius: 50px;
+  border: none;
+  font-size: 1em;
+  outline: none;
+  background-color: #f8f0f0;
+}
+
+.pago-subtitle {
+  font-size: 0.9em;
+  color: #e0e0e0;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+.btn-pago {
+  background-color: #cddc39;
+  color: black;
+  border: none;
+  border-radius: 20px;
+  padding: 0.7em 1.5em;
+  font-size: 1em;
+  cursor: pointer;
+  font-weight: bold;
+  align-self: flex-end;
+}
+
+.btn-pago:hover {
+  opacity: 0.9;
+}

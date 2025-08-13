@@ -1,0 +1,53 @@
+.promociones-container {
+  background-color: #2b2b2b;
+  padding: 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  align-items: center; 
+}
+
+.promo-item {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 200px;
+  justify-content: center; 
+}
+
+.promo-text {
+  max-width: 380px;
+  color: white;
+  text-align: center; 
+}
+
+.promo-text h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.promo-text p {
+  margin-bottom: 10px;
+}
+
+.promo-img {
+  max-width: 500px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.btn-termycond {
+  padding: 6px 15px;
+  border: 2px solid white;
+  border-radius: 20px;
+  background: transparent;
+  color: white;
+  font-size: 0.9rem;
+  cursor: default;
+}
+
+.btn-termycond:hover {
+  background-color: white;
+  color: black;
+}

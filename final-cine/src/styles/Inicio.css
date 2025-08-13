@@ -1,0 +1,155 @@
+
+.inicio-container {
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+
+.en-estreno-banner {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.poster-container {
+  position: relative;
+  width: 100%;
+  height: 80vh; 
+}
+
+.poster {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.poster img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+.estrenos-section {
+  width: 100%;
+  background-color: #3c3c3c;
+  padding: 20px 0;
+}
+
+.estrenos-section h2 {
+  color: #fff;
+  font-size: 1.8rem;
+  margin-bottom: 5px;
+  margin-left: 30px;
+}
+
+.sub-text {
+  color: hsla(61, 80%, 46%, 1);
+  font-size: 0.9rem;
+  display: block;
+  margin-left: 31px;
+  margin-bottom: 15px;
+}
+
+.movies-row {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 30px;
+  padding: 10px 10px;
+}
+
+.movies-row img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+
+.cartelera-section {
+  background-color: #3c3c3c;
+  padding: 40px 60px;
+  color: white;
+  font-weight: bold;
+}
+
+.cartelera-section h2,
+.cartelera-section .ver-toda {
+  padding-left: 10px;
+}
+
+.cartelera-section h2 {
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+
+.ver-toda {
+  font-size: 0.9rem;
+  color: hsla(61, 80%, 46%, 1);
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.ver-toda:hover {
+  text-decoration: underline;
+}
+
+.peliculas-grid {
+  background-color: #3c3c3c;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.pelicula-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  border-radius: 10px;
+  padding: 15px;
+  color: white;
+  height: 100%;
+}
+
+.pelicula-card img {
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.pelicula-card h3 {
+  font-size: 1.5rem;
+  margin: 0 0 10px 0;
+}
+
+.pelicula-card .sinopsis {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.pelicula-card .descripcion {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.pelicula-card button {
+  background-color: hsla(61, 80%, 46%, 1);
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #000;
+}
+
+.pelicula-card button:hover {
+  background-color: #e6b800;
+}
